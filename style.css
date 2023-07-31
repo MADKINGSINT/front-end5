@@ -6,20 +6,26 @@
 }
 .header{
     
+    
+    padding-top: 1.5%;
+    width: 100%;
     display: flex;
     height: 75px;
     background-color: #222;
     display: block;
-    padding-left: 231px;
-    padding-top: 18px;
     
+   
+    
+}
+.header__logo{
+    padding-left: 5%;
 }
 
 .search__icon{
-    padding-left: 41px;
+    padding-left: 5%;
 }
 .header_right_buttons{
-    padding-left: 1201px;
+    padding-left: 50vw;
 }
 .top{
     justify-content: center;
@@ -27,22 +33,20 @@
     
 }
 .top_item{
-    width: 360px;
+    width: 32%;
     height: 260px;
     flex-shrink: 0;
 }
 .the_brand{
     display: flex;
     
-    padding-left: 0px;
+    
     background-color: #F1E4E6;
 }
-.thebrand_photo{
-    padding-left: 0px;
-}
+
 .the_brand_stick{
     padding-top: 289px;
-    padding-left: 63px;
+    padding-left: 15%
 }
 .thebrand_text{
     padding-top: 290px;
@@ -65,31 +69,39 @@
 .top{
     display: flex;
     padding-top: 65px;
+    
 
 }
 .top_top{
-    
+    width: 60%;
     display: flex;
-    gap: 30px;
+    gap: 4%;
 
 }
+.down_item {
+    width: 30%;
+    height: 581px;
+}
 .top_item1{
-    width: 360px;
+    width: 32%;
     height: 260px; 
     text-align: center;
     background-image: url(./img/top_top1.png);
+    background-size: cover;
 }
 .top_item2{
-    width: 360px;
+    width: 32%;
     height: 260px; 
     text-align: center;
     background-image: url(./img/top_top2.png);
+    background-size: cover;
 }
 .top_item3{
-    width: 360px;
+    width: 32%;
     height: 260px; 
     text-align: center;
     background-image: url(./img/top_top3.png);
+    background-size: cover;
 }
 .top_item_text{
     padding-top: 105px;
@@ -110,9 +122,10 @@
     line-height: normal; 
 }
 .top_bottom{
+    width: 60%;
     display: flex;
     padding-top: 30px;
-    padding-left: 350px;
+    padding-left: 20%;
     
 }
 .top_item_big{
@@ -139,38 +152,42 @@
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-wepadding-right: 15%;ight: 400;
     line-height: normal;
 }
+.down{
+    
+    
+    
+    width: 60%;
+    
+    display: flex;
+    
+}
 .down_1{
-    padding-left: 350px;
-    gap: 30px;
+
+    gap: 3%;
     display: flex;
     
 }
 
 .down_2{
     padding-top: 30px;
-    padding-left: 350px;
-    gap: 30px;
+    justify-content: center;
+    gap: 3%;
     display: flex;
 }
 .down_item{
-    width: 360px;
+    width: 32%;
     height: 581px; 
 }
-.down_item2{
-    background-color: #F7E4E2;
-    
-}
-.down_item2_img{
-    padding-left: 108px;
-}
+
+
 .down_item_title{
     padding-top: 24px;
     color: #000;
     font-family: Lato;
-    font-size: 13px;
+    font-size: 13px;height: 167.617px; 
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -203,10 +220,10 @@
 }
 .browse_all_products{
     background-image: url(./img/button_browse_more.svg);
-    width: 212px;
+    width: 13.4%;
     height: 48px;
     border: none;
-    margin-left: 800px;
+    margin-left: 43%;
     color: #F26376;
     font-family: Lato;
     font-size: 16px;
@@ -214,4 +231,135 @@
     font-weight: 400;
     line-height: normal;
      
+}
+@media(min-width: 768px) and (max-width: 1024px){
+    .header{
+        width: 100%;
+    }
+
+    .the_brand_h1{
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal; 
+    }
+    .the_brand_h3{
+        color: #222;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    .the_brand{
+        width: 100%;
+
+    }
+    .thebrand_photo{
+       
+        width: 386px;
+        height: 368px; 
+        
+    }
+    .thebrand_photo_p{
+        width: 386px;
+        height: 368px; 
+        background-size: cover;
+    }
+    .the_brand_stick{
+        padding-top: 15%;
+        
+        
+    }
+    .stick{
+        margin-left: 0;
+    }
+    .thebrand_text{
+        padding-top: 15%;
+        padding-right: 50%;
+    }
+    .top_item{
+        width: 231.973px;
+        height: 167.617px; 
+        
+    }
+    .top_top{
+        justify-content: center;
+        padding-top: 65px;
+        gap: 2%;
+    }
+    .top_bottom{
+        padding-top: 19px;
+        padding-left: 4%;
+        width: 91.5%;
+    }
+    .down_item{
+
+        width: 360px;
+        height: 420px; 
+        margin-top: 20%;
+
+    }
+    .down_item1{
+        width: 350px;
+        height: 310px; 
+    }
+    .down_item2{
+        background-color: #9F9F9F;
+        height: 420px;
+        width: 360px;
+        
+        
+    }
+    .down_item_title{
+        background-color: #fff;
+    }
+    .down_item_text{
+        background-color: #fff;
+    }
+    .down_item2_img{
+        height: 420px;
+       
+        padding-left: 25%;
+    }
+    .down_item_img{
+        background-size: cover;
+    }
+    
+    .down{
+        justify-content: center;
+        gap: 16px;
+        width: 100%;
+        padding-left: 1px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .down_item_img{
+       
+    }
+    .browse_all_products{
+        justify-content: center;
+        margin-top: 50%;
+        background-image: url(./img/button_browse_more.svg);
+        width: 27%;
+        height: 48px;
+        border: none;
+        margin-left: 40%;
+        color: #F26376;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .down_item_text{
+        padding-top: 10px;
+    }
+    .down_item_title{
+        height: 10px;
+    }
+    
+
 }

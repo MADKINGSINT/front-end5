@@ -90,6 +90,7 @@
     background-size: cover;
 }
 .top_item2{
+    align-content: center;
     width: 32%;
     height: 260px; 
     text-align: center;
@@ -152,33 +153,22 @@
     font-family: Lato;
     font-size: 14px;
     font-style: normal;
-    font-wepadding-right: 15%;ight: 400;
     line-height: normal;
 }
 .down{
-    
-    
-    
-    width: 60%;
-    
-    display: flex;
-    
-}
-.down_1{
-
+    flex-wrap: wrap;
+    align-content: center;
     gap: 3%;
+    width: 100%;
+    
     display: flex;
     
 }
 
-.down_2{
-    padding-top: 30px;
-    justify-content: center;
-    gap: 3%;
-    display: flex;
-}
 .down_item{
-    width: 32%;
+    justify-self: center;
+    top: 25%;
+    width: 30%;
     height: 581px; 
 }
 
@@ -187,10 +177,15 @@
     padding-top: 24px;
     color: #000;
     font-family: Lato;
-    font-size: 13px;height: 167.617px; 
+    font-size: 13px;
+    
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.down_item2_img{
+    margin-left: 30%;
+    
 }
 .down_item2_title{
     color: #000;
@@ -202,7 +197,7 @@
     padding-top: 35px;
 }
 .down_item_text{
-    padding-top: 12px;
+
     color: #5D5D5D;
     font-family: Lato;
     font-size: 14px;
@@ -211,6 +206,7 @@
     line-height: normal;
 }
 .down_item_price{
+    
     color: #F16D7F;
     font-family: Lato;
     font-size: 16px;
@@ -335,9 +331,7 @@
         flex-wrap: wrap;
         
     }
-    .down_item_img{
-       
-    }
+ 
     .browse_all_products{
         justify-content: center;
         margin-top: 50%;
@@ -360,6 +354,59 @@
     .down_item_title{
         height: 10px;
     }
+
     
 
+}
+@media(min-width: 320px) and (max-width: 767px){
+    .header{
+        width: 100%;
+    }
+    .thebrand_photo{
+        visibility: hidden;
+        width: 0px;
+    }
+    .the_brand_stick{
+        padding-left: 30%;
+        padding-top: 20%;
+    }
+    .thebrand_text{
+        padding-top: 20%;
+        padding-left: 2%;
+    }
+    .the_brand{
+        height: 363px;
+    }
+    .header_right_buttons{
+        padding-left: 25%;
+    }
+    .top_top{
+        flex-direction: column;
+    }
+    .top_item{
+        width: 96%;
+        margin-top: 5%;
+    }
+    .down{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .down_item{
+        padding-left: 15px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .down_item_text{
+        padding-top: 12px;
+        width: 100%;
+        padding-right: 50%;
+    }
+    .down_item_title{
+        width: 100%;
+        padding-right: 50%;
+
+    }
+    .down_item_price{
+        padding-top: 17px;
+    }
 }
